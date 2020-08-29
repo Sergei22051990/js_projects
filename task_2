@@ -1,0 +1,9 @@
+var students = ["Дмитрий", "Алексей", "Петр", "Виктор"];
+if (students.length === 4 && students[students.length - 1]) {
+ alert ("Этот массив мне подходит");
+} else {
+ alert ("Этот массив мне не подходит");
+}
+
+
+(students.length === 4 && students[students.length - 1]) ? alert("Этот массив мне подходит") : alert("Этот массив мне не подходит");
